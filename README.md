@@ -11,7 +11,7 @@ Aplicación para generar imagenes en base a un prompt. Aplicación creada usando
 - [x] Estilos con tailwind
 - [ ] Agregar CI y CD para:
     - [x] Correr test
-    - [ ] Eslint
+    - [x] Eslint
     - [ ] Deployar app
 - [ ] Agregar barra de progreso para la generacion de imagen
 - [ ] Agregar theme switch 
