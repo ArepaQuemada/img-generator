@@ -2,8 +2,8 @@ import { ImgGenerator } from "@/infraestructure/img-generator";
 import { Payload } from "@/types/payload";
 
 export class ImageGenController {
-  imgGenerator: ImgGenerator;
-  payload: Payload;
+  private imgGenerator: ImgGenerator;
+  readonly payload: Payload;
 
   constructor(payload: Payload) {
     this.payload = payload;

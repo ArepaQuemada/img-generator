@@ -4,9 +4,10 @@ import { useState } from "react";
 
 interface Props {
   handleSubmit: (formValues: FormValues) => void;
+  isLoading?: boolean;
 }
 
-export function Form({ handleSubmit }: Props) {
+export function Form({ handleSubmit, isLoading }: Props) {
   const [formValues, setFormValues] = useState<FormValues>({
     prompt: "",
     option: "small",
@@ -79,7 +80,7 @@ export function Form({ handleSubmit }: Props) {
         <div className="form-control mt-6">
           <button
             type="submit"
-            className="btn btn-primary"
+            className={`btn btn-primary ${isLoading && "loading"}`}
             disabled={isButtonDisabled}
           >
             Generate
