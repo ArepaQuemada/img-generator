@@ -5,9 +5,10 @@ Aplicación para generar imagenes en base a un prompt. Aplicación creada usando
 ## Todo
 
 - [x] Crear Formulario
-- [ ] Crear Pagina de resultado con boton de descargar imagen
+- [x] Crear Pagina de resultado con boton de descargar imagen
 - [ ] Crear test unitarios
 - [ ] Aplicar i18n routing
+- [ ] Crear componente de button con props
 - [x] Estilos con tailwind
 - [ ] Agregar CI y CD para:
     - [x] Correr test
